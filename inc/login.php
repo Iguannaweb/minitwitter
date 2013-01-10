@@ -160,11 +160,7 @@ function displayLogin(){
       }else{  
       echo "<div class=\"contenidonormalb\">";
       require_once('./inc/captcha/recaptchalib.php');
-      include('./inc/config.php');
-/*$captcha_publickey="6Lf8EwQAAAAAAPHf0LDAlrZ6C2o3Z0nW3iSNPVaC";
-$captcha_privatekey = "6Lf8EwQAAAAAAPz3M678j9ON844yU95C3syMrD2h";
-$error_captcha="Por favor rellena bien el catcha!";*/
- 
+      include('./inc/config.php'); 
 ?>
 
 	<div class="bri">
@@ -176,8 +172,7 @@ $error_captcha="Por favor rellena bien el catcha!";*/
 	<tr>
 	<td>Nick:</td>
 	<td><input type="text" name="user" maxlength="20" class="inputbig"></td>
-	<td rowspan="3">
-	<input type="checkbox" name="registro" value="registro">I'm a new user!<br>
+	<td rowspan="2">
 	<?php echo recaptcha_get_html($captcha_publickey, $error_captcha); ?>
 	<b><em><small>If you check "I'm a new user" please fill the catpcha!</small></em></b></td>
 	</tr>
@@ -185,12 +180,15 @@ $error_captcha="Por favor rellena bien el catcha!";*/
 	<tr>
 	<td>Password:</td>
 	<td><input type="password" name="pass" maxlength="20" class="inputbig2"></td>
-
 	</tr>
 	
 	<tr>
-	<td colspan="2" align="left"> <input type="hidden" name="remember" checked>
-	<input type="submit" name="sublogin" id="sublogin" value="Enter"></td>
+	<td colspan="2" align="left"><input type="checkbox" name="registro" value="registro">I'm a new user!</td>
+	</tr>
+	
+	<tr>
+	<td colspan="3" align="left"> <input type="hidden" name="remember" checked>
+	<input type="submit" name="sublogin" id="sublogin"  class="submitbig2" value="Enter"></td>
 	</tr>
 	
 	</table>
@@ -213,8 +211,8 @@ if(isset($_POST['sublogin'])){
 
 if($_POST["registro"]=="registro"){
 require_once('./inc/captcha/recaptchalib.php');
-$captcha_publickey="6Lf8EwQAAAAAAPHf0LDAlrZ6C2o3Z0nW3iSNPVaC";
-$captcha_privatekey = "6Lf8EwQAAAAAAPz3M678j9ON844yU95C3syMrD2h";
+//$captcha_publickey="6Lf8EwQAAAAAAPHf0LDAlrZ6C2o3Z0nW3iSNPVaC";
+//$captcha_privatekey = "6Lf8EwQAAAAAAPz3M678j9ON844yU95C3syMrD2h";
 $error_captcha="Por favor rellena bien el catcha!";
 
 $captcha_respuesta = recaptcha_check_answer ($captcha_privatekey,
