@@ -791,15 +791,6 @@ countries.init()
 <div style="clear: both;"></div>
 
 <!- Fooooooooter Please do not remove this line -->
-<div class="piedepagina"><?php echo $indexphp_foot; ?>
-<br><a href="http://sourceforge.net/donate/index.php?group_id=246255"><img src="http://images.sourceforge.net/images/project-support.jpg" width="88" height="32" border="0" alt="Support This Project" /></a></div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-589888-15");
-pageTracker._trackPageview();
-</script>
+<div class="piedepagina"><?php echo $indexphp_foot; ?></div>
 </body>
 </html>
