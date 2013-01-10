@@ -49,7 +49,7 @@ $indexphp_smsgr="Send a message to the whole group";
 
 $indexphp_pvtl="Oops, sorry, but this timeline is private!";
 
-$indexphp_foot="<a href=\"mailto:crishnakh@gmail.com\">Tell me your secrets ; )</a> - <a href=\"http://www.bioscripts.net\">BioScripts</a> - <em>What you see It’s what I am</em>";
+$indexphp_foot="<a href=\"mailto:info@iguannaweb.com\">info[at]iguannaweb.com</a> | <a href=\"http://www.iguannaweb.com\">IguannaWeb</a>";
 
 $error_captcha="Please, fill the catcha correctly!";
 

@@ -276,9 +276,11 @@ width: 9px; height: 5px; background: #e7e7cd; position: absolute; top: 200px; ma
 
 }
 
-.inputbig {width: 300px; height: 34px;padding:3px 5px; font-size:34px; line-height:1.5em; border-width:1px; border-style:solid; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; cursor:pointer; text-decoration:none; color:#246; background:#e5e5e5; border-color:#80b5d0;}
+.inputbig {width: 300px; height: 34px;padding:3px 5px; font-size: 1.2em; line-height:1.5em; border-width:1px; border-style:solid; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; cursor:pointer; text-decoration:none; color:#246; background:#e5e5e5; border-color:#80b5d0;}
 
-.inputbig2{width: 300px; height: 34px;padding:3px 5px; font-size:34px; line-height:1.5em; border-width:1px; border-style:solid; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; cursor:pointer; text-decoration:none; color:#246; background:#e5e5e5; border-color:#80b5d0;}
+.inputbig2{width: 300px; height: 34px;padding:3px 5px; font-size: 1.2em; line-height:1.5em; border-width:1px; border-style:solid; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; cursor:pointer; text-decoration:none; color:#246; background:#e5e5e5; border-color:#80b5d0;}
+
+.submitbig2{width: 98%; height: 34px;padding:3px 5px; font-size: 1.2em; line-height:1.5em; border-width:1px; border-style:solid; -moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; cursor:pointer; text-decoration:none; color:#246; background:#e5e5e5; border-color:#80b5d0;}
 
 .timeline{
 height:200px; padding: 10px; margin-top: 0; margin-left: auto; margin-right: auto; margin-bottom: 10px; border: 2px solid #58584f;width:720px; background: #cde28c; color: black; 
